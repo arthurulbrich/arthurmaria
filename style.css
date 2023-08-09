@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+}
+
+.navbar{
+    background-color:black ;
+    color:white;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+    padding-right: 5vw;
+}
+
+.banner{
+    background-image: url(img/dogs\ \(2\).jfif);
+    height: 600px;
+}
+.content{
+    padding: 50px;
+}
+
+.galeria{
+    padding: 250px;
+}
+
+.footer{
+    border-color: black;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+ @media only screen and (max-width: 700px) {
+    body{
+        fant-size: 30px;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+    .content{
+        padding: 10px;
+    }
+    .galeria{
+        padding: 10px;
+    }
+    .galeria img{
+        width: 100%;
+        height: auto;
+    }
+
+
+ }
